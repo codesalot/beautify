@@ -1,5 +1,6 @@
 /* Uses some components of W3.CSS */
 /* Version 1.2 */
+/* Def styles */
 * {font-family: Arial;box-sizing: border-box;}
 html{box-sizing:border-box}
 *,*:before,*:after{box-sizing:inherit}  
@@ -8,6 +9,7 @@ h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin
 hr{border:0;border-top:1px solid #eee;margin:20px 0}
 code{background-color: grey; color:black;}
 button{border: none;color: white;padding: 14px 28px;cursor: pointer;border-radius:5px;}
+/* End def */
 .fy-amber,.fy-hover-amber:hover{color:#000!important;background-color:#ffc107!important}
 .fy-aqua,.fy-hover-aqua:hover{color:#000!important;background-color:#00ffff!important}
 .fy-blue,.fy-hover-blue:hover{color:#fff!important;background-color:#2196F3!important}
