@@ -8,7 +8,6 @@ h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin
 hr{border:0;border-top:1px solid #eee;margin:20px 0}
 code{background-color: grey; color:black;}
 button{border: none;color: white;padding: 14px 28px;cursor: pointer;border-radius:5px;}
-/* Color scheme from w3.css*/
 .fy-amber,.fy-hover-amber:hover{color:#000!important;background-color:#ffc107!important}
 .fy-aqua,.fy-hover-aqua:hover{color:#000!important;background-color:#00ffff!important}
 .fy-blue,.fy-hover-blue:hover{color:#fff!important;background-color:#2196F3!important}
@@ -88,17 +87,17 @@ button{border: none;color: white;padding: 14px 28px;cursor: pointer;border-radiu
 .fy-margin-lr {margin-left:16px;margin-right:16px;}
 .fy-margin-tb {margin-top:16px;margin-bottom:16px;}
 /* Border radius */
-.fy-border-radius-8 {border-radius: 8px;}
-.fy-border-radius-16 {border-radius: 16px;}
-.fy-border-radius-24 {border-radius: 24px;}
-.fy-border-radius-32 {border-radius: 32px;}
-.fy-border-radius-40 {border-radius: 40px;}
-.fy-border-radius-48 {border-radius: 48px;}
-.fy-border-radius-64 {border-radius: 64px;}
-.fy-border-radius-small{border-radius:12px;}
-.fy-border-radius-medium{border-radius: 24px;}
-.fy-border-radius-large{border-radius: 60px;}
-.fy-border-radius-xlarge{border-radius: 90px;}
+.fy-rounded-8 {border-radius: 8px;}
+.fy-rounded-16 {border-radius: 16px;}
+.fy-rounded-24 {border-radius: 24px;}
+.fy-rounded-32 {border-radius: 32px;}
+.fy-rounded-40 {border-radius: 40px;}
+.fy-rounded-48 {border-radius: 48px;}
+.fy-rounded-64 {border-radius: 64px;}
+.fy-rounded-small{border-radius:12px;}
+.fy-rounded-medium{border-radius: 24px;}
+.fy-rounded-large{border-radius: 60px;}
+.fy-rounded-xlarge{border-radius: 90px;}
 /* Font classes */
 .fy-serif {font-family: serif;}
 .fy-sans-serif {font-family: sans-serif;}
