@@ -1,0 +1,183 @@
+/* Uses some components of W3.CSS */
+/* Version 1.2 */
+* {font-family: Arial;box-sizing: border-box;}
+html{box-sizing:border-box}
+*,*:before,*:after{box-sizing:inherit}  
+a{color:black; text-decoration:none;}
+h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}.fy-wide{letter-spacing:4px}
+hr{border:0;border-top:1px solid #eee;margin:20px 0}
+code{background-color: grey; color:black;}
+button{border: none;color: white;padding: 14px 28px;cursor: pointer;border-radius:5px;}
+/* Color scheme from w3.css*/
+.fy-amber,.fy-hover-amber:hover{color:#000!important;background-color:#ffc107!important}
+.fy-aqua,.fy-hover-aqua:hover{color:#000!important;background-color:#00ffff!important}
+.fy-blue,.fy-hover-blue:hover{color:#fff!important;background-color:#2196F3!important}
+.fy-light-blue,.fy-hover-light-blue:hover{color:#000!important;background-color:#87CEEB!important}
+.fy-brown,.fy-hover-brown:hover{color:#fff!important;background-color:#795548!important}
+.fy-cyan,.fy-hover-cyan:hover{color:#000!important;background-color:#00bcd4!important}
+.fy-blue-grey,.fy-hover-blue-grey:hover,.fy-blue-gray,.fy-hover-blue-gray:hover{color:#fff!important;background-color:#607d8b!important}
+.fy-green,.fy-hover-green:hover{color:#fff!important;background-color:#4CAF50!important}
+.fy-light-green,.fy-hover-light-green:hover{color:#000!important;background-color:#8bc34a!important}
+.fy-indigo,.fy-hover-indigo:hover{color:#fff!important;background-color:#3f51b5!important}
+.fy-khaki,.fy-hover-khaki:hover{color:#000!important;background-color:#f0e68c!important}
+.fy-lime,.fy-hover-lime:hover{color:#000!important;background-color:#cddc39!important}
+.fy-orange,.fy-hover-orange:hover{color:#000!important;background-color:#ff9800!important}
+.fy-deep-orange,.fy-hover-deep-orange:hover{color:#fff!important;background-color:#ff5722!important}
+.fy-pink,.fy-hover-pink:hover{color:#fff!important;background-color:#e91e63!important}
+.fy-purple,.fy-hover-purple:hover{color:#fff!important;background-color:#9c27b0!important}
+.fy-deep-purple,.fy-hover-deep-purple:hover{color:#fff!important;background-color:#673ab7!important}
+.fy-red,.fy-hover-red:hover{color:#fff!important;background-color:#f44336!important}
+.fy-sand,.fy-hover-sand:hover{color:#000!important;background-color:#fdf5e6!important}
+.fy-teal,.fy-hover-teal:hover{color:#fff!important;background-color:#009688!important}
+.fy-yellow,.fy-hover-yellow:hover{color:#000!important;background-color:#ffeb3b!important}
+.fy-white,.fy-hover-white:hover{color:#000!important;background-color:#fff!important}
+.fy-black,.fy-hover-black:hover{color:#fff!important;background-color:#000!important}
+.fy-grey,.fy-hover-grey:hover,.fy-gray,.fy-hover-gray:hover{color:#000!important;background-color:#9e9e9e!important}
+.fy-light-grey,.fy-hover-light-grey:hover,.fy-light-gray,.fy-hover-light-gray:hover{color:#000!important;background-color:#f1f1f1!important}
+.fy-dark-grey,.fy-hover-dark-grey:hover,.fy-dark-gray,.fy-hover-dark-gray:hover{color:#fff!important;background-color:#616161!important}
+.fy-pale-red,.fy-hover-pale-red:hover{color:#000!important;background-color:#ffdddd!important}
+.fy-pale-green,.fy-hover-pale-green:hover{color:#000!important;background-color:#ddffdd!important}
+.fy-pale-yellow,.fy-hover-pale-yellow:hover{color:#000!important;background-color:#ffffcc!important}
+.fy-pale-blue,.fy-hover-pale-blue:hover{color:#000!important;background-color:#ddffff!important}
+.fy-text-amber,.fy-hover-text-amber:hover{color:#ffc107!important}
+.fy-text-aqua,.fy-hover-text-aqua:hover{color:#00ffff!important}
+.fy-text-blue,.fy-hover-text-blue:hover{color:#2196F3!important}
+.fy-text-light-blue,.fy-hover-text-light-blue:hover{color:#87CEEB!important}
+.fy-text-brown,.fy-hover-text-brown:hover{color:#795548!important}
+.fy-text-cyan,.fy-hover-text-cyan:hover{color:#00bcd4!important}
+.fy-text-blue-grey,.fy-hover-text-blue-grey:hover,.fy-text-blue-gray,.fy-hover-text-blue-gray:hover{color:#607d8b!important}
+.fy-text-green,.fy-hover-text-green:hover{color:#4CAF50!important}
+.fy-text-light-green,.fy-hover-text-light-green:hover{color:#8bc34a!important}
+.fy-text-indigo,.fy-hover-text-indigo:hover{color:#3f51b5!important}
+.fy-text-khaki,.fy-hover-text-khaki:hover{color:#b4aa50!important}
+.fy-text-lime,.fy-hover-text-lime:hover{color:#cddc39!important}
+.fy-text-orange,.fy-hover-text-orange:hover{color:#ff9800!important}
+.fy-text-deep-orange,.fy-hover-text-deep-orange:hover{color:#ff5722!important}
+.fy-text-pink,.fy-hover-text-pink:hover{color:#e91e63!important}
+.fy-text-purple,.fy-hover-text-purple:hover{color:#9c27b0!important}
+.fy-text-deep-purple,.fy-hover-text-deep-purple:hover{color:#673ab7!important}
+.fy-text-red,.fy-hover-text-red:hover{color:#f44336!important}
+.fy-text-sand,.fy-hover-text-sand:hover{color:#fdf5e6!important}
+.fy-text-teal,.fy-hover-text-teal:hover{color:#009688!important}
+.fy-text-yellow,.fy-hover-text-yellow:hover{color:#d2be0e!important}
+.fy-text-white,.fy-hover-text-white:hover{color:#fff!important}
+.fy-text-black,.fy-hover-text-black:hover{color:#000!important}
+.fy-text-grey,.fy-hover-text-grey:hover,.fy-text-gray,.fy-hover-text-gray:hover{color:#757575!important}
+.fy-text-light-grey,.fy-hover-text-light-grey:hover,.fy-text-light-gray,.fy-hover-text-light-gray:hover{color:#f1f1f1!important}
+.fy-text-dark-grey,.fy-hover-text-dark-grey:hover,.fy-text-dark-gray,.fy-hover-text-dark-gray:hover{color:#3a3a3a!important}
+/* END COLORS */
+.fy-button {border: none;color: white;padding: 14px 28px;cursor: pointer;}
+.fy-border-button {border: 2px solid black;background-color: white;color: black;padding: 14px 28px;font-size: 16px;cursor: pointer;}
+.fy-quotebox {border-left: 7px solid lightgrey;padding-left: 5px;padding:2px;font-style: italic;font-size:large;font-weight:400;}
+.fy-border-red {border: 2px solid#f44336;}
+.fy-border-orange {border: 2px solid#ff9800;}
+.fy-border-blue {border: 2px solid#2196F3;}
+.fy-border-green {border: 2px solid#04AA6D;}
+/* Padding classes */
+.fy-padding-16 {padding:16px;}
+.fy-padding-24 {padding:24px;}
+.fy-padding-32 {padding:32px;}
+.fy-padding-48 {padding:48px;}
+.fy-padding-64 {padding:64px;}
+/* Margin classes */
+.fy-margin {margin:16px;}
+.fy-margin-top {margin-top:16px;}
+.fy-margin-right {margin-right:16px;}
+.fy-margin-bottom {margin-bottom:16px;}
+.fy-margin-left {margin-left:16px;}
+.fy-margin-lr {margin-left:16px;margin-right:16px;}
+.fy-margin-tb {margin-top:16px;margin-bottom:16px;}
+/* Border radius */
+.fy-border-radius-8 {border-radius: 8px;}
+.fy-border-radius-16 {border-radius: 16px;}
+.fy-border-radius-24 {border-radius: 24px;}
+.fy-border-radius-32 {border-radius: 32px;}
+.fy-border-radius-40 {border-radius: 40px;}
+.fy-border-radius-48 {border-radius: 48px;}
+.fy-border-radius-64 {border-radius: 64px;}
+.fy-border-radius-small{border-radius:12px;}
+.fy-border-radius-medium{border-radius: 24px;}
+.fy-border-radius-large{border-radius: 60px;}
+.fy-border-radius-xlarge{border-radius: 90px;}
+/* Font classes */
+.fy-serif {font-family: serif;}
+.fy-sans-serif {font-family: sans-serif;}
+.fy-monospace {font-family: monospace;}
+.fy-cursive {font-family: cursive;}
+/* Beautify Content Box */
+.fy-container {border-radius:10px;padding:10px;margin: 10px;box-shadow: 7px 6px #0000003f;}
+.fy-container-small {width: 25%;}
+.fy-container-width-half, .fy-workspace-medium {width: 50%;}
+.fy-container-large {width: 75%;}
+.fy-container-width-full {width: 100%;}
+.fy-container-short {height: 25%;}
+.fy-container-height-half {height: 50%;}
+.fy-container-long {height: 75%;}
+.fy-container-height-full {height: 12px;}
+.fy-container-full, .fy-workspace-full-page {height: 100%;width: 100%;}
+/* End content boxes */
+.fy-float-left {float:left;}
+.fy-float-right {float:right;}
+.fy-float-top {float:top;}
+.fy-float-bottom {float:bottom;}
+.fy-text-underline-true {text-decoration: underline;}
+.fy-text-underline-false {text-decoration: none;}
+.fy-border-0{border:0!important}.fy-border{border:1px solid #ccc!important}
+.fy-border-top{border-top:1px solid #ccc!important}.fy-border-bottom{border-bottom:1px solid #ccc!important}
+.fy-border-left{border-left:1px solid #ccc!important}.fy-border-right{border-right:1px solid #ccc!important}
+/* Borders that correspond with colors */
+.fy-text-dark-grey,.fy-hover-text-dark-grey:hover,.fy-text-dark-gray,.fy-hover-text-dark-gray:hover{color:#3a3a3a!important}
+.fy-border-amber,.fy-hover-border-amber:hover{border-color:#ffc107!important}
+.fy-border-aqua,.fy-hover-border-aqua:hover{border-color:#00ffff!important}
+.fy-border-blue,.fy-hover-border-blue:hover{border-color:#2196F3!important}
+.fy-border-light-blue,.fy-hover-border-light-blue:hover{border-color:#87CEEB!important}
+.fy-border-brown,.fy-hover-border-brown:hover{border-color:#795548!important}
+.fy-border-cyan,.fy-hover-border-cyan:hover{border-color:#00bcd4!important}
+.fy-border-blue-grey,.fy-hover-border-blue-grey:hover,.fy-border-blue-gray,.fy-hover-border-blue-gray:hover{border-color:#607d8b!important}
+.fy-border-green,.fy-hover-border-green:hover{border-color:#4CAF50!important}
+.fy-border-light-green,.fy-hover-border-light-green:hover{border-color:#8bc34a!important}
+.fy-border-indigo,.fy-hover-border-indigo:hover{border-color:#3f51b5!important}
+.fy-border-khaki,.fy-hover-border-khaki:hover{border-color:#f0e68c!important}
+.fy-border-lime,.fy-hover-border-lime:hover{border-color:#cddc39!important}
+.fy-border-orange,.fy-hover-border-orange:hover{border-color:#ff9800!important}
+.fy-border-deep-orange,.fy-hover-border-deep-orange:hover{border-color:#ff5722!important}
+.fy-border-pink,.fy-hover-border-pink:hover{border-color:#e91e63!important}
+.fy-border-purple,.fy-hover-border-purple:hover{border-color:#9c27b0!important}
+.fy-border-deep-purple,.fy-hover-border-deep-purple:hover{border-color:#673ab7!important}
+.fy-border-red,.fy-hover-border-red:hover{border-color:#f44336!important}
+.fy-border-sand,.fy-hover-border-sand:hover{border-color:#fdf5e6!important}
+.fy-border-teal,.fy-hover-border-teal:hover{border-color:#009688!important}
+.fy-border-yellow,.fy-hover-border-yellow:hover{border-color:#ffeb3b!important}
+.fy-border-white,.fy-hover-border-white:hover{border-color:#fff!important}
+.fy-border-black,.fy-hover-border-black:hover{border-color:#000!important}
+.fy-border-grey,.fy-hover-border-grey:hover,.fy-border-gray,.fy-hover-border-gray:hover{border-color:#9e9e9e!important}
+.fy-border-light-grey,.fy-hover-border-light-grey:hover,.fy-border-light-gray,.fy-hover-border-light-gray:hover{border-color:#f1f1f1!important}
+.fy-border-dark-grey,.fy-hover-border-dark-grey:hover,.fy-border-dark-gray,.fy-hover-border-dark-gray:hover{border-color:#616161!important}
+.fy-border-pale-red,.fy-hover-border-pale-red:hover{border-color:#ffe7e7!important}.fy-border-pale-green,.fy-hover-border-pale-green:hover{border-color:#e7ffe7!important}
+.fy-border-pale-yellow,.fy-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.fy-border-pale-blue,.fy-hover-border-pale-blue:hover{border-color:#e7ffff!important}
+/* Resizes screen for mobile experience */
+.fy-screen-resize-lt-800px{@media screen and (max-width: 800px;) {.fy-workspace {width: 100%;padding: 0;}}} /* For laptops */
+.fy-screen-resize-lt-400px{@media screen and (max-width: 400px;) {.fy-workspace {float: none;width: 100%;}}} /* For tablets */
+.fy-screen-resize-l2-200px{@media screen and (max-width: 200px;) {.fy-workspace {float: none;width: 100%;}}} /* For small phones */
+/* Beautify Utilities (merge from utilities.css) */
+/* Sticky note */
+[contenteditable] {outline: 0px solid transparent;}
+.fy-note {background-color:khaki;color:black;border:4px solid #cfb643;padding-left:10px;box-shadow: 10px 10px rgba(0, 0, 0, 0.144);width: 250px;height: 250px;margin: 10px;}
+h3.fy-note-text {text-align:center;color:rgb(70, 70, 70);}
+p.fy-note-text {text-align:center;color:rgb(70, 70, 70);}
+ol.fy-note-text {padding-right:none;}
+/* End sticky note */
+/* Fade In Overlay for image */
+.fy-fade-container {position: relative;width: 50%;}
+.fy-fade-image {display: block;width: 100%;height: auto;}
+.fy-fade-overlay {position: absolute;top: 0;bottom: 0;left: 0;right: 0;height: 100%;width: 100%;opacity: 0;transition: .5s ease;}
+.fy-fade-container:hover .fy-fade-overlay {opacity: 1;}
+.fy-fade-text {color: white;font-size: 20px;position: absolute;top: 50%;left: 50%;-webkit-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);transform: translate(-50%, -50%);text-align: center;}
+.fy-flip-box {background-color: transparent;width: 300px;height: 200px;border: 1px solid #f1f1f1;perspective: 1000px;}
+.fy-flip-box-inner {position: relative;width: 100%;height: 100%;text-align: center;transition: transform 0.8s;transform-style: preserve-3d;}
+.fy-flip-box:hover .fy-flip-box-inner {transform: rotateY(180deg);}
+.fy-flip-box-front, .fy-flip-box-back {position: absolute;width: 100%;height: 100%;-webkit-backface-visibility: hidden;backface-visibility: hidden;}
+.fy-flip-box-front {background-color: #bbb;color: black;}
+.fy-flip-box-back {transform: rotateY(180deg);}
+/* Fade-in element (Javascript for element is in utilities.js*/
+#fadein{opacity:0;transition:3s;}
