@@ -68,10 +68,10 @@ button{border: none;color: white;padding: 14px 28px;cursor: pointer;border-radiu
 .fy-button {border: none;color: white;padding: 14px 28px;cursor: pointer;}
 .fy-border-button {border: 2px solid black;background-color: white;color: black;padding: 14px 28px;font-size: 16px;cursor: pointer;}
 .fy-quotebox {border-left: 7px solid lightgrey;padding-left: 5px;padding:2px;font-style: italic;font-size:large;font-weight:400;}
-.fy-border-red {border: 2px solid#f44336;}
-.fy-border-orange {border: 2px solid#ff9800;}
-.fy-border-blue {border: 2px solid#2196F3;}
-.fy-border-green {border: 2px solid#04AA6D;}
+.fy-border-red {border: 2px solid #f44336;}
+.fy-border-orange {border: 2px solid #ff9800;}
+.fy-border-blue {border: 2px solid #2196F3;}
+.fy-border-green {border: 2px solid #04AA6D;}
 /* Padding classes */
 .fy-padding-16 {padding:16px;}
 .fy-padding-24 {padding:24px;}
