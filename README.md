@@ -9,5 +9,5 @@ Beautify will:
 
 Besides making text sizes and font styles better, it also has a lot of other features and classes that can be customized and used to make a page prettier.
 
-If you want to help build Beautify, feel free to help develop it💞
+If you want to help build Beautify, feel free to help submit a pull request💞
 
