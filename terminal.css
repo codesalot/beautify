@@ -54,11 +54,5 @@ button:hover {
 }
 
 @keyframes glow {
-  from {
     text-shadow: 0 0 10px rgb(185, 241, 190), 0 0 20px rgb(185, 241, 190), 0 0 30px #93cc8e, 0 0 40px #00e645, 0 0 50px #00e626, 0 0 60px #179b0b, 0 0 70px #00e63a;
-  }
-  
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #74d491, 0 0 40px #5bd457, 0 0 50px #4dff74, 0 0 60px #71ff4d, 0 0 70px #4dff4d, 0 0 80px #4dff65;
-  }
 }
