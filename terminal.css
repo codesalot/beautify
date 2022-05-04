@@ -24,6 +24,7 @@ button {
     color:white !important;
     border: 2px dashed greenyellow !important;
     padding:5px !important;
+    border-radius: 10px, 0px, 10px, 0px;!important
 }
 
 button:hover {
